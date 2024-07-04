@@ -1,5 +1,84 @@
 
 
+/* Carousel */
+* {
+    box-sizing: border-box;
+}
+
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    background-color: #A67516;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 50px;
+	margin: 30px;
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.carousel-item img {
+    height: 200px;
+    width: 250px;
+    border-radius: 50px;
+    
+    
+    
+
+}
+
+.comida {
+    font-family: Poppins;
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.Info {
+    font-family: Jost;
+    font-size: 17px;
+    color: white;
+    padding: auto;
+}
+
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-button:focus {
+    outline: none;
+}
 
 
 
@@ -9,6 +88,129 @@
 
 
 
+/* Andressa */
+
+body{
+    background-color:#FDF0DC;
+     }
+
+p{
+   text-align: center;
+   font-family: "Jockeey One";
+   color: #A1A249;
+   font-size: 55px;
+}
+
+
+ 
+ 
+.container {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   gap: 70px; 
+ }
+
+.image-box {
+   text-align: center;
+}
+
+.image-box img {
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+
+.img-1 {
+   width: 250px; 
+}
+
+.img-2 {
+   width: 240px; 
+}
+
+.img-3 {
+   width: 250px; 
+   height: 360px;
+}
+
+/* Estilos específicos para o texto abaixo de cada imagem */
+.text-1 {
+   color: white;
+   background-color: #A67516;
+   border-radius: 20px;
+   padding-bottom: 5px;
+   text-align: center;
+   
+
+   
+}
+
+.text-2 {
+   color: white;
+   background-color: #A67516;
+   border-radius: 20px;
+   padding-bottom: 5px;
+   text-align: center;
+}
+
+.text-3 {
+   color: white;
+   background-color: #A67516;
+   border-radius: 20px;
+   padding-bottom: 5px;
+   text-align: center;
+}
+
+.image-box p {
+   margin-top: 10px;
+   font-size: 16px;
+}
+
+.content {
+   text-align: center;
+}
+
+.center-line {
+   width: 50%; /* Ajuste a largura da linha conforme necessário */
+   margin: 20px auto; /* Centraliza a linha horizontalmente e adiciona margem vertical */
+   border: none;
+   border-top: 2px solid #75760E; /* Define a cor e a espessura da linha */
+      }
+
+
+      .map-container {
+       text-align: center;
+   }
+   
+   .map-image {
+       width: 500px; /* Ajuste o tamanho conforme necessário */
+       height: 300;
+       
+       border-radius: 10px; /* Adiciona cantos arredondados à imagem */
+       cursor: pointer; /* Muda o cursor para indicar que é clicável */
+   }
+
+   .content-container {
+       display: flex;
+       justify-content: center;
+       align-items: left;
+       gap: 60px; /* Espaço entre o texto e o mapa */
+       padding: 10px;
+       border-radius: 10px;
+       
+   }
+   
+   .text-container {
+       max-width: 450px; /* Largura máxima do texto */
+       text-align: left; /* Alinhamento do texto */
+       font-size: 55px;
+   }
+
+
+.titulo {
+    font-family: 'Jockey One';
+}
 
 
 
@@ -28,11 +230,11 @@
 }
 
 .rodape{
-    position: fixed;
+    
     bottom: 0;
     background-color: #7F4F24;
     display: flex;
-    height: 50vh;
+    height: 25vh;
     width: 225vh;
     align-items: center;
     gap: 3vw;
