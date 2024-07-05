@@ -22,15 +22,55 @@
 
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jockey One">
 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+
+
 
 </head>
 <body>
+<!-- Hearder -->
 
+<div class="nav-container">
+    <div class="carrossel">
+        <div class="carrossel-img">
+            <img src="Imagem/Header/imag.png" alt="Banner" class="image">
+            <img src="Imagem/Header/Imag1.png" alt="Banner" class="image">
+            <img src="Imagem/Header/Imag2.png" alt="Banner" class="image">
+        </div>
+    </div>
+    <p class="Portal">Portal Mucugê</p>
+    <ul class="nav-list">
+        <li><a href="#">Tour Turístico</a></li>
+        <li><a href="#">Hospedagens</a></li>
+        <li><a href="#">Gastronomia</a></li>
+        <li><a href="#">Programações</a></li>
+        <li><a href="#">Contatos</a></li>
+    </ul>
+    <p class="titulo-1">Restaurante Fuá</p>
+    <p class="titulo-2">Comida Bahiana</p>
 
-
-
+    <button class="prev" onclick="prevImage()">&#10094;</button>
+    <button class="next" onclick="nextImage()">&#10095;</button>
+</div>
 
 <!-- Parte Thais -->
+  <!-- <div class="fundo">
+    <div class="fundo-fua">
+       <img src="Imagem/Thais/thais imagem 1.png" alt="Imagem de comida" class="image image1">
+       <img src="/Imagem/Thais/thais imagem 2.png" class="image image-2">   
+    </div>
+    <div class="text-overlay">
+       <p class="titulo1">Apresentamos o:</p>
+       <P class="titulo2">Fuá</P>
+       <p class="paragrafo1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>Autem voluptatem incidunt doloremque illum odit<br> rerumem eius id modi nequedolorum ipsam aperiam ipsum <br>consequuntur aliquid sunt aliquam optio temporibus.</p>
+    </div>  -->
+
+<!-- Parte Thais 2 -->
+
+<section>
+
     <div class = "pratos_região">
         <p style="font-family: Jockey One;">Recomendação dos melhores <br> pratos da região</p>
 
@@ -43,24 +83,27 @@
         
     </div>
 
-    <div class="carousel-container">
-        <div class="carousel">
-            <div class="carousel-item">
+    <div class="card-container">
+        <div class="card">
+            <div class="card-item">
                 <img src="Imagem/Comidas/Escondidinho.jpeg" alt="Escondidinho de carne">
+                <div class="center-line1"></div>
                 <div>
                     <h3 class="comida">Escondidinho de carne</h3>
                     <p class="Info">Seg - Sab | 18:30 - 22:30<br>Dom | 18:30 - 21:30<br>Italiana, Pizza</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="card-item">
                 <img src="Imagem/Comidas/Feijoada.jpeg" alt="Feijoada">
+                <div class="center-line1"></div>
                 <div>
                     <h3 class="comida">Feijoada</h3>
                     <p class="Info">Seg - Sab | 10:00 - 14:30<br>Dom | 10:30 - 14:30<br>Brasileira, Caseira</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="card-item">
                 <img src="Imagem/Comidas/peixe_frito.jpeg" alt="Peixe vermelho frito">
+                <div class="center-line1"></div>
                 <div>
                     <h3 class="comida">Peixe vermelho frito</h3>
                     <p class="Info">Seg - Sab | 18:30 - 22:30<br>Dom | 18:30 - 21:30<br>Italiana, Pizza</p>
@@ -69,15 +112,22 @@
         </div>
         
     </div>
-    <script src="scripts.js"></script>
 
-    <div class="center-line">
+  <!-- Falta botão de download aqui -->
 
 
-    </div>
+    <div class="center-line"></div>
+
+
+   
+
+</section>
+
 
 <!-- Andressa -->
  
+<section>
+
 <style>
  
     </style>
@@ -87,6 +137,7 @@
             font-size: 20px; 
             color: black; 
             font-family: Poppins;
+            
         }
 
         .text-1{
@@ -104,12 +155,12 @@
 </head>
 <body>
 
-
+</section>
 
 <p class="titulo">APROVEITE NOSSOS <br>EVENTOS E REALIZE O SEU!</p>
 <br>
 <br>
-
+<div class="text">
 <div class="container">
     <div class="image-box">
         <img src="Imagem/Andressa/a9aedf5dd0f9785243c0a6682bb845db.jpg" alt="Imagem 1" class="img-1">
@@ -124,7 +175,7 @@
         <p class="text-3">Menus especiais em <br>datas comemorativas</p>
     </div>
 </div>
- 
+</div> 
 <br>
 
 
@@ -183,5 +234,9 @@
                 Contatos
             </h2> 
             <a class="ctt">portalmucuge@gmail.com</a>
+
+
+
+            <script src="scripts.js"></script>
 </body>
 </html> 

@@ -1,24 +1,194 @@
+/* Header */
 
+.Portal{
+    position: absolute;
+    font-family: Jolly Lodger;
+    display: flex;
+    top: 20px;
+    left: 4%;
+    font-size: 37px;
+    color: white;
+}
 
-/* Thais */
-* {
-    box-sizing: border-box;
+.nav-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carrossel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel-img {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    flex-shrink: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.nav-list {
+    position: absolute;
+    top: 20px;
+    left: 68%;
+    transform: translateX(-50%);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 86px;
+}
+
+.nav-list li {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 24px;
+}
+
+ .titulo-1{
+    position: absolute;
+    top: 20vw;
+    left: 38%;
+    display: flex;
+    font-family: Jolly Lodger;
+    font-size: 6vw;
+    color: white;
+    
+}
+
+.titulo-2{
+    position: absolute;
+    top: 29vw;
+    left: 45%;
+    display: flex;
+    font-family: Jost;
+    font-size: 40px;
+    color: white;
 }
 
 
-.carousel-container {
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* Thais */
+/* Onde começa a merda */
+ /* .fundo{
+    background-color:#713D1F;
+    display:flex;
+    height:355px;
+    justify-content:space-evenly;
+    align-items:center;
+    position:relative;
+}
+
+.image1{
+    width:300px;
+    position:relative;
+    height:200px; 
+    margin-right:70px;
+    bottom:60px;
+    border-radius:10%;
+    left:20px;
+}
+
+.image-2{
+   width:350px;
+   height:350px;
+   position: relative;
+   left:10px;
+}
+
+.text-overlay {
+    position: absolute;
+    top:60px;
+    left:1015px; 
+    transform: translateX(-60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF4e3;
+    text-align: center;
+    z-index: 1;
+}
+
+.titulo1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.titulo2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.paragrafo1 {
+    position: relative;
+    text-align: center;
+    Font-size: 15px;
+    
+}
+
+* {
+    box-sizing: border-box;
+}  
+*/
+
+
+/* Onde termina */
+
+.card-container {
     position: relative;
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-.carousel {
+.card {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
 
-.carousel-item {
+.card-item {
     background-color: #A67516;
 	border-radius: 30px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -30,21 +200,27 @@
 	justify-content: center;
 }
 
-.carousel-item img {
-    height: 200px;
-    width: 250px;
+.card-item img {
+    height: 12vw;
+    width: 17vw;
     border-radius: 50px;
-    
-    
     
 
 }
 
+.pratos_região p{
+    text-align: center;
+    color: #A1A249;
+    font-size: 55px;
+
+}
+
+
 .comida {
     font-family: Poppins;
-    margin-top: 40px;
+    margin-top: 0;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 
@@ -56,6 +232,12 @@
 }
 
 
+.center-line1 {
+   width: 80%; /* Ajuste a largura da linha conforme necessário */
+   margin: 30px auto; /* Centraliza a linha horizontalmente e adiciona margem vertical */
+   border: none;
+   border-top: 2px solid #ffffff; /* Define a cor e a espessura da linha */
+      }
 
 
 
@@ -70,15 +252,17 @@ body{
     background-color:#FDF0DC;
      }
 
-p{
+
+
+.titulo{
    text-align: center;
    font-family: "Jockeey One";
    color: #A1A249;
    font-size: 55px;
 }
-
-
  
+
+
  
 .container {
    display: flex;
@@ -153,6 +337,8 @@ p{
    border: none;
    border-top: 2px solid #75760E; /* Define a cor e a espessura da linha */
       }
+
+
 
 
       .map-container {
