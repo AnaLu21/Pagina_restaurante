@@ -44,7 +44,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 86px;
+    gap: 70px;
 }
 
 .nav-list li {
@@ -72,11 +72,11 @@
 
 .titulo-2{
     position: absolute;
-    top: 29vw;
-    left: 45%;
+    top: 27vw;
+    left: 43%;
     display: flex;
     font-family: Jost;
-    font-size: 40px;
+    font-size: 35px;
     color: white;
 }
 
@@ -110,72 +110,71 @@ button:hover {
 
 
 /* Thais */
-/* Onde começa a merda */
- /* .fundo{
-    background-color:#713D1F;
-    display:flex;
-    height:355px;
-    justify-content:space-evenly;
-    align-items:center;
-    position:relative;
+
+ .fundo{
+    color:#713D1F;
+    padding: 0px;
+    border-radius: 0px;
 }
 
 .image1{
-    width:300px;
+    width:30vw;
     position:relative;
-    height:200px; 
+    height:20vw; 
     margin-right:70px;
     bottom:60px;
-    border-radius:10%;
-    left:20px;
+    left: 9vw;
+    border-radius: 6%;
 }
 
 .image-2{
-   width:350px;
-   height:350px;
-   position: relative;
-   left:10px;
+   width:30vw;
+   height:30vw;
+   position:relative;
+   left:15vw;
 }
 
 .text-overlay {
     position: absolute;
-    top:60px;
-    left:1015px; 
-    transform: translateX(-60%);
-    display: flex;
-    flex-direction: column;
+    color: rgb(255, 255, 255);
+    left: 53vw;
+    top: 49vw;
     justify-content: center;
     align-items: center;
-    color: #FFF4e3;
-    text-align: center;
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.titulo1 {
-    font-size: 24px;
-    margin: 0;
+.Titulo1 {
+    font-family: Jost;
+    font-size: 36px;
+   
 }
 
-.titulo2 {
-    font-size: 32px;
-    margin: 0;
+.Titulo2 {
+   font-family: Jolly Lodger;
+   font-size: 47px;
+   
 }
 
 .paragrafo1 {
-    position: relative;
-    text-align: center;
-    Font-size: 15px;
+   font-family: Jost;
+    font-size: 25;
     
 }
 
 * {
     box-sizing: border-box;
 }  
-*/
 
 
-/* Onde termina */
 
+
+
+
+
+/* Thais part 2 */
 
 * {
     box-sizing: border-box;
@@ -207,15 +206,15 @@ button:hover {
 }
 
 .card-item img {
-    height: 170px;
-    width: 250px;
+    height: 10vw;
+    width: 15vw;
     border-radius: 50px;
    
 }
 
 .comida {
     font-family: Poppins;
-    margin-top: 40px;
+    margin-top: 1vw;
     color: white;
     font-size: 15px;
     
@@ -281,7 +280,7 @@ button:hover {
 /* Andressa */
 
 body{
-    background-color:#FDF0DC;
+    
      }
 
 
@@ -301,6 +300,7 @@ body{
    justify-content: center; 
    align-items: center; 
    gap: 70px; 
+   
  }
 
 .image-box {
@@ -314,16 +314,19 @@ body{
 
 
 .img-1 {
-   width: 250px; 
+   width: 16vw; 
+   border-radius: 20%;
 }
 
 .img-2 {
-   width: 240px; 
+   width: 16vw; 
+   border-radius: 20%;
 }
 
 .img-3 {
-   width: 250px; 
+   width: 16vw; 
    height: 360px;
+   border-radius: 20%;
 }
 
 /* Estilos específicos para o texto abaixo de cada imagem */
@@ -396,8 +399,8 @@ body{
    }
    
    .text-container {
-       max-width: 450px; /* Largura máxima do texto */
-       text-align: left; /* Alinhamento do texto */
+       max-width: 30vw; /* Largura máxima do texto */
+       text-align: center; /* Alinhamento do texto */
        font-size: 55px;
    }
 
@@ -406,6 +409,9 @@ body{
     font-family: 'Jockey One';
 }
 
+.titulo-menor{
+    left: 6vw;
+}
 
 
 
